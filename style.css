@@ -1,0 +1,160 @@
+.navbar{
+    background-color: #757575 !important;
+}
+.navbar-brand > span{
+    color: whitesmoke;
+    font-weight: bolder;
+}
+.nav-link{
+    color: whitesmoke !important ;
+    font-weight: bold !important;
+}
+.nav-link:hover{
+    background-color: #424242;
+    border-radius: 15PX;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+}
+.carousel-caption{
+    color: #757575;
+    font-weight: bold;
+}
+
+   
+.card1,.card2,.card3{
+    display: flex;
+    box-shadow: 3px 3px 5px rgb(150, 156, 161);
+    background-color: white;
+    width: 300px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    color: #757575 ;
+    margin-top: 20px;
+}
+
+.fa-truck,.fa-headphones,.fa-thumbs-up{
+ font-size: 50px !important;
+ margin-right: 10px;
+}
+.mainContent{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+
+}
+@media screen and (max-width:600px){
+    .card1,.card2,.card3{
+        width: 80%;
+    }
+}
+.footer{
+    background-color:#757575 ;
+    color: whitesmoke;
+    text-align: center;
+    padding: 50px;
+    margin-top: 20px;
+}
+.para{
+    font-size: 32px;;
+    font-style: italic;
+    color: #757575;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:300px;
+    height: auto !important;
+     margin-bottom: 20px;
+     border: 2px solid black;
+box-shadow: 3px 3px 5px rgb(160, 167, 175); 
+    
+}
+
+
+.card-title{
+    color:#757575 ;
+    
+}
+.btn-primary{
+    background-color:#757575!important ;
+    border: none;
+    padding: 10px 20px;
+    
+}
+.btn-primary:hover{
+    background-color: #424242 !important;
+}
+@media screen and (max-width:600px){
+    .card{
+      
+        width: 100%;
+        
+    
+}
+}
+.card{
+    width: 250px;
+    height:300px;
+    margin-right: 20px;
+    
+    
+
+}
+.news > h2{
+    margin-top: 30px;
+    color:#757575;
+    text-align: center;
+    text-decoration-line: underline;
+
+}
+
+.about > h1{
+    text-align: center;
+    text-decoration-line: underline;
+    color: #757575;
+    margin-top: 20px;
+   
+}
+.about > p{
+    font-size: 32px;
+    color: #757575;
+    
+}
+.pic{
+    display: flex;
+
+justify-content: space-around;}
+.pic > img{
+    width: 600px;
+    height: 400px;
+    box-shadow: 8px 16px 5px rgb(165, 162, 162) ;
+    
+  
+}
+
+.textarea{
+    resize: none;
+    outline: none;
+ margin-top: 40px;
+ display: flex;
+ justify-content: space-around;
+
+}
+
+.contact > h3{
+    color:#757575;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+textarea{
+    resize: none;
+    box-shadow: 3px 3px 5px rgb(160, 167, 175); 
+}
